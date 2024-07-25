@@ -1,8 +1,8 @@
 "use strict"
 
-      let firstNum = parseInt(prompt(`Введіть довільне число`))
-      let secondNum = parseInt(prompt(`Введіть друге довільне число`))
-      let thirdNum = parseInt(prompt(`Введіть третє довільне число`))
+      let firstNum = parseFloat(prompt(`Введіть довільне число`))
+      let secondNum = parseFloat(prompt(`Введіть друге довільне число`))
+      let thirdNum = parseFloat(prompt(`Введіть третє довільне число`))
       const rez_1 = firstNum + 12 + secondNum
       const rez_2 = Math.sqrt((firstNum + secondNum) / (2 * firstNum))
       const rez_3 = Math.cbrt((firstNum + secondNum) * thirdNum)

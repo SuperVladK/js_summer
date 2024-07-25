@@ -1,7 +1,7 @@
 "use strict"
 
-let numOne = parseInt(prompt('Введіть перше довільне дійсне число'))
-let numTwo = parseInt(prompt('Введіть друге довільне дійсне число'))
+let numOne = parseFloat(prompt('Введіть перше довільне дійсне число'))
+let numTwo = parseFloat(prompt('Введіть друге довільне дійсне число'))
 const sum = numOne + numTwo
 const multiply = numOne * numTwo
 const division = numOne / numTwo
