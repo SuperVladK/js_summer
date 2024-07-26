@@ -7,7 +7,7 @@ const multiply = numOne * numTwo
 const division = numOne / numTwo
 document.write(`<table border="2px solid black">
 <tr>
-<td> Сума </td> <td> Добуток </td> <td> Частка </td>
+<th> Сума </th> <th> Добуток </th> <th> Частка </th>
 </tr>
 <tr>
 <td> ${sum} </td> <td> ${multiply} </td> <td> ${division} </td>
