@@ -1,9 +1,9 @@
 "use strict"
 
-      let weekProfit = 0
       let totalProfit = 0
       let weekQuantity = parseInt(prompt('Введіть кількість тижнів'))
-      for (let week = 1; week <= weekQuantity; week++) {
+for (let week = 1; week <= weekQuantity; week++) {
+      let weekProfit = 0
          for (let day = 1; day <=7; day++) {
             let dayProfit = parseFloat(prompt(`Введіть виручку за ${day} день ${week} тижня`))
             weekProfit += dayProfit
