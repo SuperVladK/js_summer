@@ -46,7 +46,7 @@ body {
 body {
   width: 100%;
   font-size: 32px;
-  background-color: rgb(243, 443, 184);
+  background-color: rgb(543, 343, 184);
 }
 
 .wrapper {
@@ -91,7 +91,7 @@ a {
   box-shadow: 3px 3px 3px grey;
   color: blue;
   border-radius: 4px;
-  background-color: rgb(200, 243, 184);
+  background-color: rgb(228, 241, 174);
 }
 
 h2 {
