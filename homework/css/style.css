@@ -121,6 +121,16 @@ table {
   text-align: center;
 }
 
+.first-column,
+.second-column {
+  text-align: left;
+}
+
+.third-column {
+  text-align: right;
+  width: 200px;
+}
+
 .table-pack {
   display: flex;
   gap: 30px;
@@ -140,4 +150,32 @@ li {
 
 ul, ol {
   padding: 0;
+}
+
+.play-box img {
+  width: 150px;
+  height: 150px;
+}
+
+.diagramm {
+  margin-top: 20px;
+  background-color: red;
+  border: 1px solid blue;
+  width: 60px;
+  text-align: center;
+}
+
+.vertical-diagramm {
+  display: flex;
+  gap: 60px;
+  align-items: end;
+}
+
+.smile {
+  width: 200px;
+  height: 150px;
+}
+
+.pyramid {
+  text-align: center;
 }
