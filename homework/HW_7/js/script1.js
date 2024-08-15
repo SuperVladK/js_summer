@@ -1,8 +1,8 @@
 "use strict"
 
-function getSeason() {
+let numMonth = parseInt(prompt('Введіть номер місяця','1-12'))
+function getSeason(numMonth) {
    let season
-   let numMonth = parseInt(prompt('Введіть номер місяця','1-12'))
    switch (numMonth) {
       case 3:
       case 4:
@@ -22,4 +22,4 @@ function getSeason() {
    }
    return season
 }
-document.write(`Ваш місяць це ${getSeason()}`)
+document.write(`Ваш місяць це ${getSeason(numMonth)}`)

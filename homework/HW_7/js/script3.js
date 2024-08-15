@@ -1,8 +1,8 @@
 "use strict"
 
-function getDayMeaning() {
+let dayNum = parseInt(prompt('Введіть номер дня тижня','1-7'))
+function getDayMeaning(dayNum) {
    let result
-   let dayNum = parseInt(prompt('Введіть номер дня тижня','1-7'))
    switch (dayNum) {
       case 1:
       case 2:
@@ -16,4 +16,4 @@ function getDayMeaning() {
    }
    return result
 }
-document.write(`Ваш день - ${getDayMeaning}`)
+document.write(`Ваш день - ${getDayMeaning(dayNum)}`)

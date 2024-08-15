@@ -18,5 +18,4 @@ let moreThanHundredNum = 0
 let num1 = parseInt(prompt('Введіть перше число'))
 let num2 = parseInt(prompt('Введіть друге число'))
 let num3 = parseInt(prompt('Введіть третє число'))
-let result = getThreeMean(num1,num2,num3)
-document.write(`${result}`)
+document.write(`${getThreeMean(num1,num2,num3)}`)

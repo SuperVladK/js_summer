@@ -1,8 +1,7 @@
 "use strict"
-
-function getMonth() {
+let monthNum = parseInt(prompt('Введіть номер місяця','1-12'))
+function getMonth(monthNum) {
    let monthName
-   let monthNum = parseInt(prompt('Введіть номер місяця','1-12'))
    switch (monthNum) {
       case 1: monthName = 'січень'
          break
@@ -31,4 +30,4 @@ function getMonth() {
    }
    return monthName
 }
-document.write(`Ваш місяць - ${getMonth}`)
+document.write(`Ваш місяць - ${getMonth(monthNum)}`)

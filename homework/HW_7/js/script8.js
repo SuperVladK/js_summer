@@ -1,8 +1,7 @@
 "use strict"
    
-function getPicture(path1, path2, path3, path4) {
+function getPicture(path1, path2, path3, path4,pictureNum) {
    let src
-   let pictureNum = 1 + Math.floor(Math.random() * 4)
    switch (pictureNum) {
       case 1: src = path1
          break
@@ -13,10 +12,11 @@ function getPicture(path1, path2, path3, path4) {
       case 4: src = path4
          break
    }
-   return `<img class="yo" src="${src}" alt="image">`
+   return src
 }
 let path1 = './img/1.webp'
 let path2 = './img/2.webp'
 let path3 = './img/3.webp'
 let path4 = './img/4.webp'
-document.write(`${getPicture(path1, path2, path3, path4)}`)
+let pictureNum = 1 + Math.floor(Math.random() * 4)
+document.write(`<img class="yo" src="${getPicture(path1, path2, path3, path4, pictureNum)}" alt="image">`)
