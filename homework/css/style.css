@@ -101,7 +101,8 @@ h2 {
 }
 
 footer {
-  padding: 50px 0;
+  padding: 10px 0;
+  margin-bottom: 50px;
 }
 
 .footer__link {
@@ -117,8 +118,14 @@ footer {
   color: blueviolet;
 }
 
-table {
+table,
+td {
   text-align: center;
+  border: 2px solid black;
+}
+
+td {
+  padding: 3px;
 }
 
 .first-column,
@@ -178,4 +185,26 @@ ul, ol {
 
 .pyramid {
   text-align: center;
+}
+
+.yo {
+  width: 400px;
+  height: 300px;
+}
+
+.banner {
+  width: 500px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner h2 {
+  color: red;
+}
+
+.banner img {
+  width: 490px;
+  padding-top: 30px;
 }
