@@ -227,3 +227,32 @@
 //    document.write(`В класі ${nameIvanQnt} Іванів.`)
 // }
 
+// let arr = [3, 45, 678]
+// for (let item of arr) {
+//    let msg
+//    if (item < 10) msg = 'Hi'
+//    else msg = 'Bye'
+// document.write(`${msg} `)
+// }
+
+// let prices = [3, 101, 56, 984, 34]
+// let moreThanHundred = []
+// for (let item of prices) {
+//    (item) > 100 ? moreThanHundred.push(item) : item = item
+// }
+// let sum = 0
+// moreThanHundred.forEach((element) => (sum += element))
+// document.write(`${sum}`)
+
+// let prices = [4, 67, 284, 567, 101]
+// let sum = 0
+// prices.forEach((element) => {
+//    if (element > 100) sum+=element
+// })
+// document.write(`${sum}`)
+
+// let arr = [-3,4,-5,4]
+// arr.forEach((element, ind, arr) => { if (element > 0) arr[ind] = 0});
+// document.write(`${arr}`)
+
+ 
