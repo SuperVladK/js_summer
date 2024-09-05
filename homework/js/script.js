@@ -255,4 +255,97 @@
 // arr.forEach((element, ind, arr) => { if (element > 0) arr[ind] = 0});
 // document.write(`${arr}`)
 
- 
+// let arr = [34, 34, 46, 57, 9, 1,]
+// let a = arr.find(el => el >= 23)
+//  document.write(`${a}`)
+
+// let prices = [234,4,564,243,345,576,34,]
+// for (let index = 0; index < prices.length; index++){
+//    document.write(`<div>${index+1} - ${prices[index]}</div>`)
+// }
+
+// let prices = [234, 4, 564, 243, 345, 576, 34,]
+// prices.forEach((element, index) => {
+//    document.write(`<div>${index+1} - ${element}</div>`)
+// })
+
+// let names = ['Olga', 'Ivan', 'Bob']
+// let firstLetterNames = names.map(element => element[0])
+// document.write(firstLetterNames) 
+
+// let weekdays = ['Mon', 'Tue', 'Wen', 'Thu', 'Fri', 'Sat', 'Fri']
+// let order = [5, 2, 6, 5, 3, 1, 7]
+// let titles = order.map((element) => weekdays[element-1])
+// document.write(`${titles}`)
+
+// let weekdays = ['Mon', 'Tue', 'Wen', 'Thu', 'Fri', 'Sat', 'Fri']
+// let order = [5, 2, 6, 5, 3, 1, 7]
+// let titles = order.map((element) => {
+//    if (element >= 1 && element <= 7) return weekdays[element - 1]
+//    else return 'Wrong'
+// })
+// document.write(`${titles}`)
+
+// let arr = [1, 3, 5, 7, 9]
+// let sec = arr.pop()
+// document.write(`${sec}, <br> ${arr} <br>`)
+// let a = arr.pop()
+// document.write(`${a} <br> ${arr}` )
+
+// let yearsArr = [2009, 2010, 2023, 2010, 2045]
+// for (let i = 0; i < yearsArr.length; i++){
+//    if (yearsArr[i] === 2010) {
+//       yearsArr.splice(i + 1, 0, 2015)
+//       i++
+//    }
+// }
+//    document.write(yearsArr)
+
+// let temperatures = [-10, -9, 5, 13, 17, 16, 18, 19, 21, 11, 7, -4]
+// temperatures.splice(5,3,0,0,0)
+// document.write(temperatures)
+
+// let temperatures = [-10, -9, 5, 13, 17, 16, 18, 19, 21, 11, 7, -4]
+// let changed = temperatures.slice(0, 6)
+// let second = temperatures.slice(6)
+// document.write(`${changed}<br>${second}`)
+
+// let arr = [4,8,6,5,7,4]
+// let r = arr.indexOf(6)
+// document.write(r)
+
+// let arr = [4, 8, 6, 5, 0, 7, 4, 46, 0, 7, 23, 0, 24, 8, 31, 4]
+// let firstZero = arr.indexOf(0)
+// let lastZero = arr.lastIndexOf(0)
+// let newArr = arr.slice(firstZero + 1, lastZero)
+// document.write(newArr)
+
+// let arr = [4, 8, 6, 5, 0, 7, 4, 46, 0, 7, 23, 0, 24, 8, 31, 4]
+// let firstZero = arr.indexOf(0)
+// let secondZero = arr.indexOf(0, firstZero + 1)
+// let thirdZero = arr.indexOf(0, secondZero + 1)
+// let newArr = []
+//    newArr.push(firstZero, secondZero, thirdZero)
+//    document.write(newArr)
+
+
+// let arr = [4, 8, 6, 5, 0, 7, 4, 46, 0, 7, 23, 0, 24, 8, 31, 4]
+// let bad = arr.findLastIndex((el) => el < 4)
+//  document.write(bad)
+
+// let arr = [4, 5, 4, 5, 1, 2, 4]
+// let firstBadScore = arr.find((el) => el < 4)
+// document.write(firstBadScore)
+
+// let roomNums = [3, 4, 6, 7, 8, 34, 23, 12, 34]
+// if (roomNums.includes(5)) document.write('Yes')
+// else document.write('No')
+
+// let arr = [4, 8, 6, 5, 0, 7, 4, 46, 9, -7, 23, 0, 24, 8, -31, 4]
+// let sum = arr.reduce((prevSum, el, index, arr) => prevSum + el, 0)
+// document.write(sum)
+
+// let arr = [4, 8, 6, -5, 0, 7, -4, 46, 9, -7, 23, 0, 24, 8, -31, 4]
+// let temp = arr.filter((el) => el > 0)
+// document.write(temp)
+
